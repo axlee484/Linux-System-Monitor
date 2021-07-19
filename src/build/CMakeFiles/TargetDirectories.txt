@@ -1,3 +1,0 @@
-/home/ayush/cpp/Monitor/build/CMakeFiles/rebuild_cache.dir
-/home/ayush/cpp/Monitor/build/CMakeFiles/edit_cache.dir
-/home/ayush/cpp/Monitor/build/CMakeFiles/monitor.dir
