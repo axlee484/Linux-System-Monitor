@@ -159,7 +159,8 @@ float LinuxParser::CpuUtilization(int pid)
 
     i++;
     
-  }//log_<<pid<<"\n";
+  }
+  //log_<<pid<<"\n";
 
 
   time /= sysconf(_SC_CLK_TCK);
