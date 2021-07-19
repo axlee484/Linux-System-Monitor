@@ -13,7 +13,7 @@ using std::stof;
 using std::string;
 using std::to_string;
 using std::vector;
-std::ofstream log_("logLP.txt"); 
+std::ofstream log_("logLP.txt") // for testing and logging
 
 string LinuxParser::OperatingSystem()
 {
@@ -159,7 +159,7 @@ float LinuxParser::CpuUtilization(int pid)
 
     i++;
     
-  }log_<<pid<<"\n";
+  }//log_<<pid<<"\n";
 
 
   time /= sysconf(_SC_CLK_TCK);
