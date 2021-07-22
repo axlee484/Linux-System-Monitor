@@ -1,7 +1,7 @@
 # Linux-Sytem-Monitor
 A basic System Monitor for Linux
 
-This is a basic project that builds a htop-like process monitor for Linux
+This is a basic project that builds an htop-like process monitor for Linux
 To run it Download or clone the repository locally and go to the Download directory
 run
 $ ./Linux-System-Monitor/build/monitor
