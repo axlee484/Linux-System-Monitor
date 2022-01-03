@@ -8,13 +8,13 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/ayush/cpp/Monitor/src/format.cpp" "CMakeFiles/monitor.dir/src/format.cpp.o" "gcc" "CMakeFiles/monitor.dir/src/format.cpp.o.d"
-  "/home/ayush/cpp/Monitor/src/linux_parser.cpp" "CMakeFiles/monitor.dir/src/linux_parser.cpp.o" "gcc" "CMakeFiles/monitor.dir/src/linux_parser.cpp.o.d"
-  "/home/ayush/cpp/Monitor/src/main.cpp" "CMakeFiles/monitor.dir/src/main.cpp.o" "gcc" "CMakeFiles/monitor.dir/src/main.cpp.o.d"
-  "/home/ayush/cpp/Monitor/src/ncurses_display.cpp" "CMakeFiles/monitor.dir/src/ncurses_display.cpp.o" "gcc" "CMakeFiles/monitor.dir/src/ncurses_display.cpp.o.d"
-  "/home/ayush/cpp/Monitor/src/process.cpp" "CMakeFiles/monitor.dir/src/process.cpp.o" "gcc" "CMakeFiles/monitor.dir/src/process.cpp.o.d"
-  "/home/ayush/cpp/Monitor/src/processor.cpp" "CMakeFiles/monitor.dir/src/processor.cpp.o" "gcc" "CMakeFiles/monitor.dir/src/processor.cpp.o.d"
-  "/home/ayush/cpp/Monitor/src/system.cpp" "CMakeFiles/monitor.dir/src/system.cpp.o" "gcc" "CMakeFiles/monitor.dir/src/system.cpp.o.d"
+  "/home/ayush/Linux-System-Monitor/src/format.cpp" "CMakeFiles/monitor.dir/src/format.cpp.o" "gcc" "CMakeFiles/monitor.dir/src/format.cpp.o.d"
+  "/home/ayush/Linux-System-Monitor/src/linux_parser.cpp" "CMakeFiles/monitor.dir/src/linux_parser.cpp.o" "gcc" "CMakeFiles/monitor.dir/src/linux_parser.cpp.o.d"
+  "/home/ayush/Linux-System-Monitor/src/main.cpp" "CMakeFiles/monitor.dir/src/main.cpp.o" "gcc" "CMakeFiles/monitor.dir/src/main.cpp.o.d"
+  "/home/ayush/Linux-System-Monitor/src/ncurses_display.cpp" "CMakeFiles/monitor.dir/src/ncurses_display.cpp.o" "gcc" "CMakeFiles/monitor.dir/src/ncurses_display.cpp.o.d"
+  "/home/ayush/Linux-System-Monitor/src/process.cpp" "CMakeFiles/monitor.dir/src/process.cpp.o" "gcc" "CMakeFiles/monitor.dir/src/process.cpp.o.d"
+  "/home/ayush/Linux-System-Monitor/src/processor.cpp" "CMakeFiles/monitor.dir/src/processor.cpp.o" "gcc" "CMakeFiles/monitor.dir/src/processor.cpp.o.d"
+  "/home/ayush/Linux-System-Monitor/src/system.cpp" "CMakeFiles/monitor.dir/src/system.cpp.o" "gcc" "CMakeFiles/monitor.dir/src/system.cpp.o.d"
   )
 
 # Targets to which this target links.
