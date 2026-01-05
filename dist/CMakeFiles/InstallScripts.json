@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/ayush-work/Linux-System-Monitor/dist/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

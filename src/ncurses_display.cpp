@@ -69,10 +69,12 @@ void NCursesDisplay::DisplayProcesses(std::vector<Process>& processes,
   mvwprintw(window, row, time_column, "TIME+");
   mvwprintw(window, row, command_column, "COMMAND");
   wattroff(window, COLOR_PAIR(2));
+  int win_y_max, win_x_max;
+  getmaxyx(window, win_y_max, win_x_max);
   for (int i = 0; i < n; ++i) {
     // Clear the line
-    mvwprintw(window, ++row, pid_column, (string(window->_maxx-2, ' ').c_str()));
-    
+    mvwprintw(window, ++row, pid_column, (string(win_x_max-2, ' ').c_str()));
+
     mvwprintw(window, row, pid_column, to_string(processes[i].Pid()).c_str());
     mvwprintw(window, row, user_column, processes[i].User().c_str());
     float cpu = processes[i].CpuUtilization() * 100;
@@ -81,7 +83,7 @@ void NCursesDisplay::DisplayProcesses(std::vector<Process>& processes,
     mvwprintw(window, row, time_column,
               Format::ElapsedTime(processes[i].UpTime()).c_str());
     mvwprintw(window, row, command_column,
-              processes[i].Command().substr(0, window->_maxx - 46).c_str());
+              processes[i].Command().substr(0, win_x_max - 46).c_str());
   }
 }
 
@@ -91,10 +93,12 @@ void NCursesDisplay::Display(System& system, int n) {
   cbreak();       // terminate ncurses on ctrl + c
   start_color();  // enable color
 
-  int x_max{getmaxx(stdscr)};
-  WINDOW* system_window = newwin(9, x_max - 1, 0, 0);
-  WINDOW* process_window =
-      newwin(3 + n, x_max - 1, system_window->_maxy + 1, 0);
+    int x_max_scr{getmaxx(stdscr)};
+    WINDOW* system_window = newwin(9, x_max_scr - 1, 0, 0);
+    int y_max, x_max;
+    getmaxyx(system_window, y_max, x_max);
+    WINDOW* process_window =
+      newwin(3 + n, x_max - 1, y_max + 1, 0);
 
   while (1) {
     init_pair(1, COLOR_BLUE, COLOR_BLACK);

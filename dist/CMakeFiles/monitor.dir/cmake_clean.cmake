@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/monitor.dir/link.d"
   "CMakeFiles/monitor.dir/src/format.cpp.o"
   "CMakeFiles/monitor.dir/src/format.cpp.o.d"
   "CMakeFiles/monitor.dir/src/linux_parser.cpp.o"

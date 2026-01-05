@@ -1,3 +1,3 @@
-/home/ayush/Linux-System-Monitor/build/CMakeFiles/monitor.dir
-/home/ayush/Linux-System-Monitor/build/CMakeFiles/edit_cache.dir
-/home/ayush/Linux-System-Monitor/build/CMakeFiles/rebuild_cache.dir
+/home/ayush-work/Linux-System-Monitor/dist/CMakeFiles/monitor.dir
+/home/ayush-work/Linux-System-Monitor/dist/CMakeFiles/edit_cache.dir
+/home/ayush-work/Linux-System-Monitor/dist/CMakeFiles/rebuild_cache.dir
